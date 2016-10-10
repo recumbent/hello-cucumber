@@ -4,9 +4,7 @@ Feature: Make Cucumber Work
     So that I can have confidence in the code solely within the service
 
 Scenario: Call the mock server
-    Given I have started the mock server
-    And I have defined a valid request
+    Given I have defined a valid request
     When I make the request
     Then I get the expected response
-    And I can kill the server
 
