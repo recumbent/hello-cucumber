@@ -5,8 +5,8 @@ Feature: Make Cucumber Work
 
 Scenario: Call the mock server
     Given I have started the mock server
-#    And I have defined a valid request
-#    When I make the request
-#    Then I get the expected response
+    And I have defined a valid request
+    When I make the request
+    Then I get the expected response
     And I can kill the server
 
